@@ -1,0 +1,30 @@
+Title: Election Audit
+
+	Overview: Election data in comma sepperated value form was analyzed with python script to automatically determine percentage votes by county, candidate, winner, winner vote count, and winner percentage.  The purpose is to quickly determine if atypical results are present.
+
+	
+	Results:
+
+-------------------------
+Total Votes: 369,711
+-------------------------
+
+County Votes:
+Jefferson: 10.5% (38,855)
+Denver: 82.8% (306,055)
+Arapahoe: 6.7% (24,801)
+Diana DeGette: 73.8% (272,892)
+Charles Casper Stockham: 23.0% (85,213)
+Raymon Anthony Doane: 3.1% (11,606)
+-------------------------
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
+
+
+	Summary:
+	-Dianna Degette won(73.8%).  The vote counts match the percentage.
+	-Denver had the largest share of votes(82.8%).  The vote counts match the percentage.
+
+	The script could be modified to only display the results in the consol and not save the data to a text file.  The script could also 	be modified to only report the winning candidate and their vote percentage.
